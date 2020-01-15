@@ -22,7 +22,7 @@ export default () => {
 
   //Call searchApi when component is first rendered 
  useEffect(() => {
-   searchApi('pasta')
+   searchApi('spanisch')
  }, []);
  return [searchApi, results, errorMessage];
 }
